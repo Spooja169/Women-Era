@@ -1,0 +1,70 @@
+body
+{
+	background-image: linear-gradient(#FFBFF8, #f6e9f5);
+
+}
+.header
+
+{
+	
+	background-image: linear-gradient(#FFBFF8, #f6e9f5);
+	font-family: 'Barriecito', cursive;
+
+
+}
+
+.sitename{
+
+	font-size:50px;
+}
+h1
+{
+	font-size: 60px;
+	margin:10px 10px;
+	padding: 10px;
+}
+
+#para1{
+	text-align: center;
+	padding-top: 50px;
+
+}
+
+footer{
+	text-align: center;
+	padding: 30px;
+}
+
+.box{
+	position: relative;
+	max-width: 500px;
+	padding: 30px;
+	background: rgba(255,255,255,.2);
+	box-shadow: 0px 5px 15px rgba(0,0,0,.5);
+}
+
+.i1{
+	height: 100px;
+	padding: 50px;
+}
+
+
+
+.updates{
+
+	text-align: center;
+	width:30%;
+	border-right: 1px solid white;
+	height:1000px;
+	background-color: white;
+}
+
+.dailygossip{
+
+
+	text-align: center;
+	width:30%;
+	height:1000px;
+	border-left:1px solid white;
+	background-color: white;
+}

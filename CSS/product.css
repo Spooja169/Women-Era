@@ -1,0 +1,60 @@
+h1{
+
+margin:10px;
+text-align: center;
+	
+}
+
+body{
+
+ 	
+  margin:0px;
+  padding: 0px;
+}
+
+.welcomeimg{
+
+		  
+          padding-left: 230px;
+
+          }
+
+.header{
+  
+  
+  background-image: linear-gradient(#FFBFF8, #f6e9f5);
+  font-family: 'Barriecito', cursive;
+  text-align: center;
+  font-size: 20px;
+  padding-top:5px;
+ 
+}
+
+.ppre{
+  
+   border-radius: 20px;
+    margin:0px;
+	background-image: linear-gradient(#FFBFF8, #f6e9f5);
+}
+
+.pre{
+
+	  
+  font-family: 'Barriecito', cursive;
+  text-align: center;
+  font-size: 30px;
+
+}
+
+	
+	.card{
+        
+        border-radius: 20px;
+		width:270px;
+		height:440px;
+		margin:30px;
+	}
+button{
+
+	border-radius: 10px;
+}

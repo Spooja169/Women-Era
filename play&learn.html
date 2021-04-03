@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Play & Learn</title>
+	<link rel="stylesheet" href="css/play&learn.css">
+	<link rel="stylesheet" href="css/test.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Ultra&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Saira+Stencil+One&display=swap" rel="stylesheet">
+	<script src="java/JQuery.js"></script>
+	<script>
+			$(document).ready(function(){
+				$(".maths").hide(function(){
+			$(".tog1").click(function(){
+				$(".maths").fadeToggle();
+
+			});
+
+			});
+		});
+
+				$(document).ready(function(){
+					$(".english").hide(function(){
+			$(".tog2").click(function(){
+				$(".english").fadeToggle();
+
+			});
+
+			});
+		});
+
+			  	$(document).ready(function(){
+			  		$(".rhymes").hide(function(){
+			$(".tog3").click(function(){
+				$(".rhymes").fadeToggle();
+
+			});
+
+			});
+		});
+	</script>
+	
+	
+</head>
+<body>
+
+	<nav class="navbar navbar-expand-lg navbar-light   bg-light">
+  <a class="navbar-brand" href="front.html">Home</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="product.html">Products
+        	<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="image.html">Subscription</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Blogs
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">
+          	Food Reciepe
+          </a>
+          <a class="dropdown-item" href="#">
+          	Beauty Tips
+          </a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">life of Women</a>
+        </div>
+      </li>
+      
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+<br><br><br>
+<div class="backgc">
+	<div class="tog1">
+		<h1 class="heading1">MATHS</h1>
+	</div>
+	<div class="maths">
+			<p class="labels">Add Numbers</p>
+
+
+		<input type="text" name="1digit" id="1digit" placeholder="1st Digit">
+		<input type="text" name="2digit" id="2digit" placeholder="2nd Digit">
+		<p id="total">Total-</p>
+		<button onclick="add();" class="mbutton">ADD</button>
+
+
+			<p class="labels">Subtract Numbers</p>
+
+
+		<input type="text" name="1digit" id="digit1" placeholder="1st Digit">
+		<input type="text" name="2digit" id="digit2" placeholder="2nd Digit">
+		<p id="subtraction">Total-</p>
+		<button onclick="Subtract();" class="mbutton">Subtract</button>
+
+	
+
+	<p class="labels">Maths Tables:-</p>
+
+	<input type="text" name="mtables"placeholder="Enter No."id="number">
+	<button onclick="create()" class="mbutton">Create</button>
+
+	<p class="labels">Division:-</p>
+
+	<input type="text" name="divide" placeholder="Enter No." id="divide1">
+	<input type="text" name="divide" placeholder="Enter No." id="divide2">
+	<p id="division">Result</p>
+	<button onclick="division();" class="mbutton">Divide</button>
+
+	<h1>Videos</h1>
+
+		<iframe width="300" height="300" src="https://www.youtube.com/embed/glkQwKA5_PU" allowfullscreen></iframe>
+	
+		<iframe width="300" height="300" src="https://www.youtube.com/embed/z5bLJ5E038E"allowfullscreen></iframe>
+
+		<iframe width="300" height="300" src="https://www.youtube.com/embed/JQ-KT0cQmik"allowfullscreen></iframe>
+
+		<iframe width="300" height="300" src="https://www.youtube.com/embed/fHqjNHxmB7c"allowfullscreen></iframe>
+
+
+
+	</div>
+<br><br>
+	<div class="tog2">
+		<h1 class="heading2">ENGLISH</h1>
+	</div>
+
+	<div class="english">
+		<p class="label1">Alphabets</p>
+		<button class="abutton">A</button>
+	    <button class="abutton">B</button>
+	    <button class="abutton">C</button>
+	    <button class="abutton">D</button>
+	    <button class="abutton">E</button>
+	    <button class="abutton">F</button>
+	    <button class="abutton">G</button>
+	    <button class="abutton">H</button>
+	    <button class="abutton">I</button>
+	    <button class="abutton">J</button>
+	    <button class="abutton">K</button>
+	    <button class="abutton">L</button>
+	    <button class="abutton">M</button>
+	    <button class="abutton">N</button>
+	    <button class="abutton">O</button>
+	    <button class="abutton">P</button>
+	    <button class="abutton">Q</button>
+	    <button class="abutton">R</button>
+	    <button class="abutton">S</button>
+	    <button class="abutton">T</button>
+	    <button class="abutton">U</button>
+	    <button class="abutton">V</button>
+	    <button class="abutton">W</button>
+	    <button class="abutton">X</button>
+	    <button class="abutton">Y</button>
+	    <button class="abutton">Z</button>
+
+	    <br><br><br>
+
+	    <p class="label1">WORDS</p>
+
+	    <p class="alpha">A-APPLE</p>
+	    <p class="alpha">B-BALL</p>
+	    <p class="alpha">C-CAT</P>
+	    <p class="alpha">D-DOG</P>
+	    <p class="alpha">E-EGG</P>
+	    <p class="alpha">F-FAN</P>
+	    <p class="alpha">G-GOD</P>
+	    <p class="alpha">H-HAT</P>
+	    <p class="alpha">I-INK</P>
+	    <p class="alpha">J-JUG</P>
+	    <p class="alpha">K-KITE</P>
+	    <p class="alpha">L-LAMB</P>
+	    <p class="alpha">M-MAN</P>
+	    <p class="alpha">N-NET</P>
+	    <p class="alpha">O-ONION</P>
+	    <p class="alpha">P-PEN</P>
+	    <p class="alpha">Q-QUEEN</P>
+	    <p class="alpha">R-RING</P>
+	    <p class="alpha">S-STAR</P>
+	    <p class="alpha">T-TRAIN</P>
+	    <p class="alpha">U-UMBRELLA</P>
+	    <p class="alpha">V-VAN</P>
+	    <p class="alpha">W-WATCH</P>
+	    <p class="alpha">X-X-MAS TREE</P>
+	    <p class="alpha">Y-YACHT</P>
+	    <p class="alpha">Z-ZOO.</P>
+
+
+		<iframe width="300" height="300" src="https://www.youtube.com/embed/gj4Dk89_Zlw"allowfullscreen></iframe>
+
+		<iframe width="300" height="300" src="https://www.youtube.com/embed/Fck4a-uc1RY"allowfullscreen></iframe>
+	
+	</div>
+
+	<br><br>
+
+	<div class="tog3">
+		<h1 class="heading3">RHYMES</h1>
+	</div>
+
+	<div class="rhymes">
+		<p class="label3">Rhymes.</p>
+
+		<iframe width="300" height="300" src="https://www.youtube.com/embed/byqs6AmYdGU"allowfullscreen></iframe>
+
+		<iframe width="300" height="300" src="https://www.youtube.com/embed/NjOetE6vJRc"allowfullscreen></iframe>
+
+		<iframe width="300" height="300" src="https://www.youtube.com/embed/Rj2QkLaaj2E"allowfullscreen></iframe>
+
+	</div>
+
+	<br><br><br><br>
+
+	<p style="font-size: 30px;text-align:center">Checkout the Website Regularly for new updates.</p>
+
+</div>
+
+
+		<script type="text/javascript">
+
+
+		function add(){
+
+			var a = document.getElementById('1digit').value;
+			var b = document.getElementById('2digit').value;
+			var total = parseFloat(a) + parseFloat(b);
+
+			document.getElementById('total').innerHTML = total;
+		}
+
+			function Subtract(){
+
+			var a = document.getElementById('digit1').value;
+			var b = document.getElementById('digit2').value;
+			var total = parseFloat(a) - parseFloat(b);
+
+			document.getElementById('subtraction').innerHTML = total;
+		}
+
+
+			function create(){
+
+				var a = document.getElementById('number').value;
+
+				document.write('<table border ="5"cellpadding="8px"cellspacing="5px" align="center">');
+
+				for(var i= 1; i < 11; i++ ){
+
+					
+
+					document.write('<tr><td>'+ a +'</td><td>'+"X"+'</td><td>'+ i +'</td><td>'+ "="+'</td><td>' + a*i +'</td></tr>'+ "<br>");
+				}
+
+				document.write('</table>');
+			}
+			
+			function division(){
+
+			var a = document.getElementById('divide1').value;
+			var b = document.getElementById('divide2').value;
+			var total = a / b;
+
+			document.getElementById('division').innerHTML = total;
+		}
+
+
+		
+
+		
+
+
+
+
+
+		</script>
+
+
+</body>
+</html>

@@ -1,0 +1,153 @@
+.labels{
+
+			font-size: 30px;
+			font-family: 'Ultra', serif;
+			color:#E9753B;
+
+
+		}
+
+		.heading1{
+
+			font-size: 50px;
+			text-decoration-line: underline;
+			text-decoration-color:#365007;
+			color:#365007;
+			border:solid 1px #365007;
+			border-radius: 60px;
+			background-color:rgba(119,171,30,0.8);
+
+
+		}
+
+
+		.science{
+
+			border:solid 1px #365007;
+			border-radius: 60px;
+			background-color: rgba(119,171,30,0.6);
+			text-align:center;
+		}
+
+		.mbutton{
+
+			background-color:#365007;
+			padding:15px;
+			border-radius: 7px;
+			color:white;
+			font-size: 15px;
+			font-weight: bold;
+
+		}
+
+		.mbutton:hover{
+
+			background-color:white;
+			color:green;
+		}
+
+		.tog1{
+
+			text-align: center;
+			
+			
+		}
+
+		.tog2{
+
+			text-align: center;
+			
+		}
+
+		.heading2{
+
+			font-size: 50px;
+			text-decoration-line: underline;
+			text-decoration-color:#900C3F;
+			color:#900C3F;
+			border:solid 1px #900C3F;
+			border-radius: 20px;
+			background-color:rgba(204,51,153,0.8);
+		}
+
+		.social{
+
+			border:solid 1px #900C3F;
+			border-radius: 20px;
+			background-color: rgba(204,51,153,0.6);
+			text-align:center;
+		}
+
+		.label1{
+
+			font-size: 50px;
+			font-family: 'Ultra', serif;
+			color:#2C8696;
+
+
+		}
+
+		.abutton{
+
+			height: 100px;
+			width:100px;
+			box-shadow: 1px 1px 1px 1px;
+			z-index:1;
+			font-size:30px;
+			font-family: 'Saira Stencil One', regular;
+			color:#C70039;
+			border-radius: 20px;
+		}
+
+		.abutton:hover{
+
+			 background-color:#BE74E8;
+			 color:white;
+		}
+
+		.alpha{
+
+			font-family: 'Saira Stencil One', regular;
+			color:#C70039;
+			font-size:30px;
+		}
+
+		.heading3{
+
+			font-size: 50px;
+			text-decoration-line: underline;
+			text-decoration-color:#0A1D47;
+			color:#0A1D47;
+			border:solid 1px #365007;
+			border-radius: 20px;
+			background-color:rgba(50,146,124,0.8);
+		}
+
+		.label3{
+
+			font-size: 35px;
+			font-family: 'Ultra', serif;
+			color:#2C8696;
+
+
+		}
+
+			.maths{
+
+			border:solid 1px #365007;
+			border-radius: 20px;
+			background-color: rgba(50,146,124,0.4);
+			text-align:center;
+		}
+
+		.tog3{
+
+			text-align: center;
+			
+		}
+
+		.backgc{
+
+			background-image: linear-gradient(#FFBFF8, #f6e9f5);
+
+		}

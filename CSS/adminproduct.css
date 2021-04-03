@@ -1,0 +1,27 @@
+.menu{
+
+	background-color:grey;
+	width:300px;
+	font-size: 25px;
+	height:650px;
+	overflow: scroll;
+	position:fixed;
+
+	}
+
+.menu>.menuitem{
+
+	display:block;
+	list-style-type: none;
+	color:white;
+	padding:20px;
+	
+}
+a{
+	text-decoration: none;
+}
+ 
+
+
+
+ 
